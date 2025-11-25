@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d1cdb4a89adab43bf9866e647392c3, type: 3}
+  m_Name: EngineOptions_BallDropPrediction
+  m_EditorClassIdentifier: 
+  BallPrediction_Velocity_Pow: 0.8
+  BallPrediction_Velocity_Mod: 0.75
+  BallPrediction_Velocity_Per_Distance_Mod: 0.01
+  BallPrediction_Angle_Pow: 0.76
+  BallPrediction_Angle_Mod: 0.0053
+  BallPrediction_Angle_Effect_DistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2
+      inSlope: -0.0998961
+      outSlope: -0.0998961
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10.027934
+      value: 0.99824846
+      inSlope: -0.0998961
+      outSlope: -0.0998961
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RelaxationToVelocityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4.8789773
+      value: 1.2808776
+      inSlope: 0.11290099
+      outSlope: 0.11290099
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1786007
+      outWeight: 0.6510134
+    - serializedVersion: 3
+      time: 6.452257
+      value: 1.588533
+      inSlope: 0.25340706
+      outSlope: 0.25340706
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.12327846
+    - serializedVersion: 3
+      time: 10.0287695
+      value: 2.0153487
+      inSlope: 0.012833378
+      outSlope: 0.012833378
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.25803205
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BallPrediction_Velocity_YPow: 0
+  BallPrediction_Velocity_YMod: 0.2
+  BallPrediction_Velocity_Height_Mod_As_Minus: 0.08

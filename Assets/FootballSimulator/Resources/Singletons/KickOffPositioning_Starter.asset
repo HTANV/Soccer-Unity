@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5437d1806d523c841bf8bebc10b66d02, type: 3}
+  m_Name: KickOffPositioning_Starter
+  m_EditorClassIdentifier: 
+  FixedLength: 0
+  FieldPositions:
+  - Name: GK
+    Position: 2
+    HorizontalPlacement: 0.4982347
+    VerticalPlacement: 0.15840288
+  - Name: RB
+    Position: 4
+    HorizontalPlacement: 0.15621376
+    VerticalPlacement: 0.4714995
+  - Name: LB
+    Position: 8
+    HorizontalPlacement: 0.84731805
+    VerticalPlacement: 0.4671358
+  - Name: CB
+    Position: 16
+    HorizontalPlacement: 0.49487168
+    VerticalPlacement: 0.29149622
+  - Name: CB_R
+    Position: 32
+    HorizontalPlacement: 0.2930894
+    VerticalPlacement: 0.32204223
+  - Name: CB_L
+    Position: 64
+    HorizontalPlacement: 0.69833547
+    VerticalPlacement: 0.32531503
+  - Name: DMF
+    Position: 128
+    HorizontalPlacement: 0.4915086
+    VerticalPlacement: 0.37658867
+  - Name: DMF_R
+    Position: 256
+    HorizontalPlacement: 0.33849037
+    VerticalPlacement: 0.4376807
+  - Name: DMF_L
+    Position: 512
+    HorizontalPlacement: 0.6495714
+    VerticalPlacement: 0.4376807
+  - Name: CM
+    Position: 1024
+    HorizontalPlacement: 0.5005889
+    VerticalPlacement: 0.48131785
+  - Name: CM_L
+    Position: 2048
+    HorizontalPlacement: 0.8580798
+    VerticalPlacement: 0.3885889

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b511f91166479a4d85df972bc93bdd0, type: 3}
+  m_Name: EngineOptions_BallDropPredictionForCrosses
+  m_EditorClassIdentifier: 
+  Angle_Pow: 0.19
+  Angle_Mod: 0.76
+  DistToAngle_Pow: 1.3
+  CrossHeight_Pow: 0.001
+  CrossHeight_Mod: 0.1
+  DistanceToBallPow: 0.4
+  DistanceToBallMod: 0.225
+  PlayerVelocityDivider: 12
+  PlayerVelocityMul: 0.4
+  Velocity_Height_Mod_As_Minus: 1.1

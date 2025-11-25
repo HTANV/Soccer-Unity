@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed26517d0acc03449efcdab92b178da, type: 3}
+  m_Name: 3D_BallLoader
+  m_EditorClassIdentifier: 
+  balls:
+    Entries:
+    - Id: 0
+      Val:
+        m_AssetGUID: a809d6ed006c88a4591cc1442f9f1442
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 1
+      Val:
+        m_AssetGUID: 569d6bf86fcf0004f9b83f00b74189a4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0

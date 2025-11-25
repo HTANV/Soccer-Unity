@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f464b5f7b2651340a04314ac946fa0d, type: 3}
+  m_Name: ST
+  m_EditorClassIdentifier: 
+  team: {fileID: 0}
+  Name: 
+  SkinColor: 0
+  HairStyles: 0
+  HairColor: 0
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 0
+  weight: 0
+  strength: 85
+  acceleration: 95
+  topSpeed: 95
+  dribbleSpeed: 100
+  jump: 100
+  tackling: 70
+  ballKeeping: 95
+  passing: 85
+  longBall: 55
+  agility: 90
+  shooting: 100
+  shootPower: 100
+  positioning: 100
+  reaction: 95
+  ballControl: 95
+  position: 1048576

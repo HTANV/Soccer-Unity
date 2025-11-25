@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e00733d2c67d041914c3f5a645d1b9, type: 3}
+  m_Name: InGameKitMaterial
+  m_EditorClassIdentifier: 
+  Material: {fileID: 2100000, guid: 7fec3cfe5fe39e34d8b7dcbeda8890a0, type: 2}
+  MaskTextures:
+    Entries:
+    - Id: 0
+      Val:
+        m_AssetGUID: 8d9255a4e7956b144b2920225c0b01ab
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 1
+      Val:
+        m_AssetGUID: 204f2a21061dca341bda7f498a95619e
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 2
+      Val:
+        m_AssetGUID: c8c6982472b13624798c91cc65ffb51a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 3
+      Val:
+        m_AssetGUID: f9d22358ab2072b42a84f6147bb73899
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 4
+      Val:
+        m_AssetGUID: 0f3404b923f53ec4d9e96f39843889df
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 5
+      Val:
+        m_AssetGUID: 1dac378699b093d48823c44e51bf873e
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 6
+      Val:
+        m_AssetGUID: 1a8143dcb87e4d0488183fed02d935ca
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 7
+      Val:
+        m_AssetGUID: f2f76c37b908bb345b4abda9213935bd
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 8
+      Val:
+        m_AssetGUID: 9ce29a3f5d4aece4e95869ae86089be7
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 9
+      Val:
+        m_AssetGUID: c7b62445a66b5c54b88fa04a9cfc2a41
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+    - Id: 10
+      Val:
+        m_AssetGUID: a70991f126e967e4692ead153d5e6a09
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+  RefereeMaterial:
+    m_AssetGUID: 3095dfa259b43cc40831296367dcdaa6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

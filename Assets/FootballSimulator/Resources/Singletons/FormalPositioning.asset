@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa151a8091554914287e97188fc250d8, type: 3}
+  m_Name: FormalPositioning
+  m_EditorClassIdentifier: 
+  FixedLength: 1
+  FieldPositions:
+  - Name: GK
+    Position: 2
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.07033998
+  - Name: RB
+    Position: 4
+    HorizontalPlacement: 0.04
+    VerticalPlacement: 0.3
+  - Name: LB
+    Position: 8
+    HorizontalPlacement: 0.96
+    VerticalPlacement: 0.3
+  - Name: CB
+    Position: 16
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.2
+  - Name: CB_R
+    Position: 32
+    HorizontalPlacement: 0.3
+    VerticalPlacement: 0.2
+  - Name: CB_L
+    Position: 64
+    HorizontalPlacement: 0.7
+    VerticalPlacement: 0.2
+  - Name: DMF
+    Position: 128
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.35
+  - Name: DMF_R
+    Position: 256
+    HorizontalPlacement: 0.3
+    VerticalPlacement: 0.35
+  - Name: DMF_L
+    Position: 512
+    HorizontalPlacement: 0.7
+    VerticalPlacement: 0.35
+  - Name: CM
+    Position: 1024
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.5
+  - Name: CM_L
+    Position: 2048
+    HorizontalPlacement: 0.7
+    VerticalPlacement: 0.5
+  - Name: CM_R
+    Position: 4096
+    HorizontalPlacement: 0.3
+    VerticalPlacement: 0.5
+  - Name: RMF
+    Position: 8192
+    HorizontalPlacement: 0.002
+    VerticalPlacement: 0.55
+  - Name: LMF
+    Position: 16384
+    HorizontalPlacement: 0.98
+    VerticalPlacement: 0.55
+  - Name: AMF
+    Position: 32768
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.65
+  - Name: AMF_R
+    Position: 65536
+    HorizontalPlacement: 0.3
+    VerticalPlacement: 0.65
+  - Name: AMF_L
+    Position: 131072
+    HorizontalPlacement: 0.7
+    VerticalPlacement: 0.65
+  - Name: LW
+    Position: 262144
+    HorizontalPlacement: 0.99
+    VerticalPlacement: 0.78
+  - Name: RW
+    Position: 524288
+    HorizontalPlacement: 0.01
+    VerticalPlacement: 0.78
+  - Name: ST
+    Position: 1048576
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.82
+  - Name: ST_L
+    Position: 2097152
+    HorizontalPlacement: 0.7
+    VerticalPlacement: 0.82
+  - Name: ST_R
+    Position: 4194304
+    HorizontalPlacement: 0.3
+    VerticalPlacement: 0.82

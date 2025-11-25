@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1425542a051424cb3bbfaf15b5b0bd, type: 3}
+  m_Name: EngineOptions_BallHitAnimations
+  m_EditorClassIdentifier: 
+  AnimSettings:
+    Entries:
+    - Id: 14
+      Val: 1
+    - Id: 5
+      Val: 1
+    - Id: 7
+      Val: 1
+    - Id: 6
+      Val: 1
+    - Id: 15
+      Val: 1
+    - Id: 17
+      Val: 1
+    - Id: 13
+      Val: 1
+    - Id: 16
+      Val: 1
+    - Id: 23
+      Val: 1
+    - Id: 22
+      Val: 1
+  BlockBehavioursWhenThisClipsAreaPlaying:
+  - Spin
+  - Struggle
+  BallHitActionBlockers:
+  - Struggle
+  - Tackled
+  - Tackling
+  - Spin
+  BlockForVolley: 1.5
+  BlockForHeader: 0.75
+  BlockForGroundHeader: 0.25
+  Header_VelMulti: 0.75
+  BALL_HEIGHT_VOLLEY_END: 1.75
+  BALL_HEIGHT_VOLLEY_START: 1.6
+  BALL_HEIGHT_GROUND_HEADER_UNTIL: 1.15
+  SPECIAL_BALL_HIT_TIME_OFFSET: 0.2

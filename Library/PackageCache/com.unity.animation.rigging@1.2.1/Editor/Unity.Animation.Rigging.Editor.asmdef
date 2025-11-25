@@ -1,0 +1,25 @@
+{
+    "name": "Unity.Animation.Rigging.Editor",
+    "references": [
+        "Unity.Animation.Rigging",
+        "Unity.Burst"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "versionDefines": [
+        {
+            "name": "Unity",
+            "expression": "2021.2.0a17",
+            "define": "SUPPORTS_SCENE_VIEW_OVERLAYS"
+        }
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62167fdba83dc4547948862d652ba67e, type: 3}
+  m_Name: PositionSkillRules
+  m_EditorClassIdentifier: 
+  PreferredSkillsForOverallCalc:
+  - {fileID: 11400000, guid: 663b8761ccb884340a1e7b9326d5d1a8, type: 2}
+  - {fileID: 11400000, guid: c7655601dc18fb44cb40ba27d2a86d44, type: 2}
+  - {fileID: 11400000, guid: a8a69edc24a2fff4b83ec42fe276995a, type: 2}
+  - {fileID: 11400000, guid: 655a1b92e16627f41ba522b4e2a512a7, type: 2}
+  - {fileID: 11400000, guid: 08ef9c3507d924e4aa430a012d3f6b3f, type: 2}
+  - {fileID: 11400000, guid: a0e6ff7962b84cf4596fc7c6778cb886, type: 2}
+  - {fileID: 11400000, guid: 202810b3190cd92448a96a8a509ac0ab, type: 2}
+  - {fileID: 11400000, guid: ccada5360cab8ac43a73378ac0911cc8, type: 2}
+  - {fileID: 11400000, guid: a9838088095284c488cd993554ca5034, type: 2}

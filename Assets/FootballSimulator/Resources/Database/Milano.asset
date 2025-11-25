@@ -1,0 +1,507 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4233983802622558738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 5
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Broz
+  SkinColor: 2
+  HairStyles: 6
+  HairColor: 2
+  FacialHairStyles: 3
+  FacialHairColor: 1
+  BootColor: 4
+  SockAccessoryColor: 1
+  height: 181
+  weight: 75
+  strength: 82
+  acceleration: 78
+  topSpeed: 79
+  dribbleSpeed: 75
+  jump: 78
+  tackling: 88
+  ballKeeping: 77
+  passing: 86
+  longBall: 77
+  agility: 77
+  shooting: 75
+  shootPower: 86
+  positioning: 86
+  reaction: 83
+  ballControl: 72
+--- !u!114 &-3844048931604584175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 7
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Calhan
+  SkinColor: 1
+  HairStyles: 6
+  HairColor: 2
+  FacialHairStyles: 3
+  FacialHairColor: 2
+  BootColor: 5
+  SockAccessoryColor: 1
+  height: 178
+  weight: 70
+  strength: 64
+  acceleration: 74
+  topSpeed: 77
+  dribbleSpeed: 86
+  jump: 72
+  tackling: 68
+  ballKeeping: 94
+  passing: 95
+  longBall: 96
+  agility: 85
+  shooting: 91
+  shootPower: 86
+  positioning: 92
+  reaction: 90
+  ballControl: 92
+--- !u!114 &-1291842204274745290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 8
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Dumfy
+  SkinColor: 4
+  HairStyles: 1
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 188
+  weight: 77
+  strength: 80
+  acceleration: 85
+  topSpeed: 90
+  dribbleSpeed: 83
+  jump: 77
+  tackling: 75
+  ballKeeping: 75
+  passing: 78
+  longBall: 78
+  agility: 74
+  shooting: 72
+  shootPower: 76
+  positioning: 80
+  reaction: 78
+  ballControl: 73
+--- !u!114 &-813258575147390419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 11
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Martinas
+  SkinColor: 3
+  HairStyles: 3
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 5
+  SockAccessoryColor: 2
+  height: 174
+  weight: 70
+  strength: 73
+  acceleration: 84
+  topSpeed: 86
+  dribbleSpeed: 86
+  jump: 78
+  tackling: 67
+  ballKeeping: 83
+  passing: 80
+  longBall: 74
+  agility: 82
+  shooting: 84
+  shootPower: 81
+  positioning: 85
+  reaction: 82
+  ballControl: 82
+--- !u!114 &-347376946389235592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 3
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Acarbe
+  SkinColor: 2
+  HairStyles: 2
+  HairColor: 1
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 192
+  weight: 83
+  strength: 91
+  acceleration: 71
+  topSpeed: 72
+  dribbleSpeed: 64
+  jump: 80
+  tackling: 87
+  ballKeeping: 62
+  passing: 67
+  longBall: 55
+  agility: 51
+  shooting: 49
+  shootPower: 41
+  positioning: 91
+  reaction: 80
+  ballControl: 57
+--- !u!114 &-223350429421712749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097a80344c96307499abae1931fb354d, type: 3}
+  m_Name: Kit - Home
+  m_EditorClassIdentifier: 
+  PreviewTexture: {fileID: 2800000, guid: 6c76c9867ed2bf9418705a73e457dcf8, type: 3}
+  KitMaterial: {fileID: 2800000, guid: b77aaba2683484a40beff092cc4ca81d, type: 3}
+  Color1: {r: 0.021787068, g: 0.30197376, b: 0.6792453, a: 0}
+  Color2: {r: 0, g: 0, b: 0, a: 1}
+  TextColor: {r: 1, g: 1, b: 1, a: 0}
+  GKKitMaterial: {fileID: 2800000, guid: d608d0bf69d71e34b85658a81fad14e7, type: 3}
+  GKColor1: {r: 0, g: 0.7169812, b: 0.63711107, a: 1}
+  GKColor2: {r: 0.16067994, g: 0.20400071, b: 0.4811321, a: 1}
+  GKTextColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &-202783665239450935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 9
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Gosa
+  SkinColor: 1
+  HairStyles: 2
+  HairColor: 0
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 183
+  weight: 74
+  strength: 76
+  acceleration: 80
+  topSpeed: 79
+  dribbleSpeed: 79
+  jump: 77
+  tackling: 71
+  ballKeeping: 79
+  passing: 72
+  longBall: 84
+  agility: 87
+  shooting: 78
+  shootPower: 72
+  positioning: 84
+  reaction: 77
+  ballControl: 81
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c613a3d0b206295429bcdf69eef2c59c, type: 3}
+  m_Name: Milano
+  m_EditorClassIdentifier: 
+  TeamName: Milano
+  TeamLogo: {fileID: 3174386659758084452}
+  HomeKit: {fileID: -223350429421712749}
+  AwayKit: {fileID: 1604258282232329471}
+  Players:
+  - {fileID: 4496894129067823149}
+  - {fileID: 8285264434553364085}
+  - {fileID: -347376946389235592}
+  - {fileID: 6091120840614407728}
+  - {fileID: -202783665239450935}
+  - {fileID: -4233983802622558738}
+  - {fileID: 2685668273722230516}
+  - {fileID: -3844048931604584175}
+  - {fileID: -1291842204274745290}
+  - {fileID: 7219076373468960285}
+  - {fileID: -813258575147390419}
+  Formation: 6
+  IsValid: 1
+--- !u!114 &1604258282232329471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097a80344c96307499abae1931fb354d, type: 3}
+  m_Name: Kit - Away
+  m_EditorClassIdentifier: 
+  PreviewTexture: {fileID: 2800000, guid: c3c8fb8db3a50224ca2c77d24edc6c4a, type: 3}
+  KitMaterial: {fileID: 2800000, guid: 90d55755dbdd6274e9079a3c6d5fed5c, type: 3}
+  Color1: {r: 1, g: 1, b: 1, a: 1}
+  Color2: {r: 0.11740828, g: 0.22405714, b: 0.6415094, a: 1}
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
+  GKKitMaterial: {fileID: 2800000, guid: d608d0bf69d71e34b85658a81fad14e7, type: 3}
+  GKColor1: {r: 0, g: 0.05661776, b: 0.5660378, a: 1}
+  GKColor2: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+  GKTextColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2685668273722230516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 6
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Barallea
+  SkinColor: 2
+  HairStyles: 3
+  HairColor: 0
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 1
+  height: 175
+  weight: 65
+  strength: 68
+  acceleration: 83
+  topSpeed: 80
+  dribbleSpeed: 88
+  jump: 73
+  tackling: 78
+  ballKeeping: 90
+  passing: 86
+  longBall: 81
+  agility: 92
+  shooting: 77
+  shootPower: 74
+  positioning: 85
+  reaction: 88
+  ballControl: 83
+--- !u!114 &3174386659758084452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85022e03f077af43892c0a1cb85ae49, type: 3}
+  m_Name: Logo
+  m_EditorClassIdentifier: 
+  TeamLogoMaterial: {fileID: 2800000, guid: 31e70d4f558bcb24fb0e0ba1f9c3a9a6, type: 3}
+  TeamLogoColor1: {r: 0.10980393, g: 0.10588236, b: 0.61960787, a: 1}
+  TeamLogoColor2: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &4496894129067823149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 1
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Onnas
+  SkinColor: 5
+  HairStyles: 3
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 190
+  weight: 78
+  strength: 79
+  acceleration: 78
+  topSpeed: 80
+  dribbleSpeed: 55
+  jump: 85
+  tackling: 69
+  ballKeeping: 44
+  passing: 67
+  longBall: 68
+  agility: 84
+  shooting: 47
+  shootPower: 44
+  positioning: 86
+  reaction: 84
+  ballControl: 88
+--- !u!114 &6091120840614407728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 4
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Vrieh
+  SkinColor: 2
+  HairStyles: 1
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 189
+  weight: 77
+  strength: 86
+  acceleration: 68
+  topSpeed: 77
+  dribbleSpeed: 62
+  jump: 73
+  tackling: 84
+  ballKeeping: 60
+  passing: 76
+  longBall: 65
+  agility: 64
+  shooting: 55
+  shootPower: 62
+  positioning: 93
+  reaction: 90
+  ballControl: 70
+--- !u!114 &7219076373468960285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 10
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Lokoko
+  SkinColor: 5
+  HairStyles: 0
+  HairColor: 0
+  FacialHairStyles: 3
+  FacialHairColor: 2
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 191
+  weight: 96
+  strength: 97
+  acceleration: 78
+  topSpeed: 87
+  dribbleSpeed: 85
+  jump: 90
+  tackling: 73
+  ballKeeping: 78
+  passing: 74
+  longBall: 66
+  agility: 71
+  shooting: 88
+  shootPower: 94
+  positioning: 89
+  reaction: 85
+  ballControl: 83
+--- !u!114 &8285264434553364085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 2
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Bastonea
+  SkinColor: 1
+  HairStyles: 3
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 3
+  height: 190
+  weight: 81
+  strength: 86
+  acceleration: 82
+  topSpeed: 76
+  dribbleSpeed: 61
+  jump: 86
+  tackling: 92
+  ballKeeping: 66
+  passing: 72
+  longBall: 62
+  agility: 59
+  shooting: 43
+  shootPower: 37
+  positioning: 89
+  reaction: 85
+  ballControl: 59

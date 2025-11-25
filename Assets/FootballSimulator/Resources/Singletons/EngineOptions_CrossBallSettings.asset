@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37e38678631f47409c60b9d2102567d, type: 3}
+  m_Name: EngineOptions_CrossBallSettings
+  m_EditorClassIdentifier: 
+  distanceSubtractor:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.12990189
+      value: 0.11264849
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 24.705927
+      value: 1.0483259
+      inSlope: 0.12734224
+      outSlope: 0.12734224
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.27630183
+      outWeight: 0.3907447
+    - serializedVersion: 3
+      time: 35.33464
+      value: 2.9790602
+      inSlope: 0.27478707
+      outSlope: 0.27478707
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.29170245
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 49.819283
+      value: 9.000618
+      inSlope: 0.4683939
+      outSlope: 0.4683939
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.12053319
+      outWeight: 0.4142873
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  dragMinusPerDistance: 0.25

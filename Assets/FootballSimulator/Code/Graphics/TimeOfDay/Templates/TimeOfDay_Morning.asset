@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de7a505af9ea364bb86713759e46bc2, type: 3}
+  m_Name: TimeOfDay_Morning
+  m_EditorClassIdentifier: 
+  entries:
+  - AmbientColor: {r: 0.6320754, g: 0.6290593, b: 0.612, a: 1}
+    FogColor: {r: 0.85490197, g: 1, b: 0.9764706, a: 1}
+    FogStart: 80
+    FogEnd: 220
+    LightIntensity: 1.2
+    LightColor: {r: 0.84313726, g: 1, b: 0.85490197, a: 1}
+    ShadowStrength: 0.5
+    SpotLightIntensity: 0
+    LightRotation: {x: 44, y: -25, z: 315.64587}
+    PlayerFakeShadowPower: 1
+  - AmbientColor: {r: 0.6320754, g: 0.6290593, b: 0.612, a: 1}
+    FogColor: {r: 0.85490197, g: 1, b: 0.9764706, a: 1}
+    FogStart: 80
+    FogEnd: 220
+    LightIntensity: 1.2
+    LightColor: {r: 0.8443396, g: 1, b: 0.85647553, a: 1}
+    ShadowStrength: 0.5
+    SpotLightIntensity: 0
+    LightRotation: {x: 44, y: -25, z: 315.64587}
+    PlayerFakeShadowPower: 1
+  - AmbientColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    FogColor: {r: 0.654902, g: 0.77254903, b: 0.76153415, a: 1}
+    FogStart: 80
+    FogEnd: 190
+    LightIntensity: 1.2
+    LightColor: {r: 1, g: 1, b: 1, a: 1}
+    ShadowStrength: 0.5
+    SpotLightIntensity: 0
+    LightRotation: {x: 44, y: -25, z: 315.64587}
+    PlayerFakeShadowPower: 1
+  - AmbientColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    FogColor: {r: 0.654902, g: 0.77254903, b: 0.76153415, a: 1}
+    FogStart: 80
+    FogEnd: 190
+    LightIntensity: 1.1
+    LightColor: {r: 1, g: 1, b: 1, a: 1}
+    ShadowStrength: 0.5
+    SpotLightIntensity: 0
+    LightRotation: {x: 44, y: -25, z: 315.64587}
+    PlayerFakeShadowPower: 1

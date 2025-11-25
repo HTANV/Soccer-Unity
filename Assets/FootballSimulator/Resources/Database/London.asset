@@ -1,0 +1,507 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8726705899490165968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85022e03f077af43892c0a1cb85ae49, type: 3}
+  m_Name: Logo
+  m_EditorClassIdentifier: 
+  TeamLogoMaterial: {fileID: 2800000, guid: 29f1bae2a4c1520428b42bba52838280, type: 3}
+  TeamLogoColor1: {r: 1, g: 0, b: 0, a: 1}
+  TeamLogoColor2: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
+--- !u!114 &-6598470696967288008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 10
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Martinelas
+  SkinColor: 3
+  HairStyles: 3
+  HairColor: 2
+  FacialHairStyles: 2
+  FacialHairColor: 2
+  BootColor: 3
+  SockAccessoryColor: 3
+  height: 178
+  weight: 74
+  strength: 77
+  acceleration: 91
+  topSpeed: 91
+  dribbleSpeed: 92
+  jump: 82
+  tackling: 67
+  ballKeeping: 87
+  passing: 83
+  longBall: 86
+  agility: 87
+  shooting: 83
+  shootPower: 85
+  positioning: 82
+  reaction: 86
+  ballControl: 85
+--- !u!114 &-5702018892321914367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 11
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Jasus
+  SkinColor: 3
+  HairStyles: 1
+  HairColor: 2
+  FacialHairStyles: 2
+  FacialHairColor: 2
+  BootColor: 6
+  SockAccessoryColor: 1
+  height: 175
+  weight: 68
+  strength: 61
+  acceleration: 93
+  topSpeed: 95
+  dribbleSpeed: 90
+  jump: 82
+  tackling: 48
+  ballKeeping: 89
+  passing: 83
+  longBall: 76
+  agility: 94
+  shooting: 82
+  shootPower: 80
+  positioning: 85
+  reaction: 92
+  ballControl: 86
+--- !u!114 &-5075097694649751538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 8
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Xhekeae
+  SkinColor: 0
+  HairStyles: 1
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 1
+  height: 186
+  weight: 76
+  strength: 78
+  acceleration: 75
+  topSpeed: 71
+  dribbleSpeed: 80
+  jump: 82
+  tackling: 85
+  ballKeeping: 78
+  passing: 88
+  longBall: 92
+  agility: 76
+  shooting: 83
+  shootPower: 90
+  positioning: 86
+  reaction: 77
+  ballControl: 82
+--- !u!114 &-3903149915965840616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 3
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Selibe
+  SkinColor: 3
+  HairStyles: 1
+  HairColor: 2
+  FacialHairStyles: 2
+  FacialHairColor: 2
+  BootColor: 5
+  SockAccessoryColor: 3
+  height: 192
+  weight: 84
+  strength: 83
+  acceleration: 74
+  topSpeed: 78
+  dribbleSpeed: 58
+  jump: 81
+  tackling: 83
+  ballKeeping: 66
+  passing: 73
+  longBall: 60
+  agility: 72
+  shooting: 63
+  shootPower: 67
+  positioning: 84
+  reaction: 81
+  ballControl: 70
+--- !u!114 &-1878274192352403488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 1
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Remstale
+  SkinColor: 1
+  HairStyles: 2
+  HairColor: 3
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 190
+  weight: 87
+  strength: 81
+  acceleration: 74
+  topSpeed: 77
+  dribbleSpeed: 60
+  jump: 80
+  tackling: 68
+  ballKeeping: 44
+  passing: 68
+  longBall: 83
+  agility: 78
+  shooting: 45
+  shootPower: 39
+  positioning: 85
+  reaction: 88
+  ballControl: 85
+--- !u!114 &-783463200734231585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 9
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Odengeardes
+  SkinColor: 0
+  HairStyles: 2
+  HairColor: 3
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 6
+  SockAccessoryColor: 3
+  height: 178
+  weight: 73
+  strength: 68
+  acceleration: 81
+  topSpeed: 79
+  dribbleSpeed: 82
+  jump: 74
+  tackling: 66
+  ballKeeping: 83
+  passing: 86
+  longBall: 85
+  agility: 82
+  shooting: 83
+  shootPower: 84
+  positioning: 86
+  reaction: 84
+  ballControl: 88
+--- !u!114 &-623127371071196754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097a80344c96307499abae1931fb354d, type: 3}
+  m_Name: Kit - Away
+  m_EditorClassIdentifier: 
+  PreviewTexture: {fileID: 2800000, guid: be1646917a331214cba44a853e6fe0fa, type: 3}
+  KitMaterial: {fileID: 2800000, guid: 751463103b0a4f047ac09f0a820737d4, type: 3}
+  Color1: {r: 1, g: 0, b: 0, a: 1}
+  Color2: {r: 1, g: 1, b: 1, a: 1}
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
+  GKKitMaterial: {fileID: 2800000, guid: d608d0bf69d71e34b85658a81fad14e7, type: 3}
+  GKColor1: {r: 0, g: 1, b: 0.42012548, a: 1}
+  GKColor2: {r: 0, g: 1, b: 0.41960785, a: 1}
+  GKTextColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &-178964163030422498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 5
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Whiteah
+  SkinColor: 1
+  HairStyles: 2
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 2
+  SockAccessoryColor: 1
+  height: 186
+  weight: 76
+  strength: 77
+  acceleration: 79
+  topSpeed: 78
+  dribbleSpeed: 74
+  jump: 78
+  tackling: 80
+  ballKeeping: 74
+  passing: 78
+  longBall: 82
+  agility: 77
+  shooting: 71
+  shootPower: 81
+  positioning: 82
+  reaction: 83
+  ballControl: 79
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c613a3d0b206295429bcdf69eef2c59c, type: 3}
+  m_Name: London
+  m_EditorClassIdentifier: 
+  TeamName: London
+  TeamLogo: {fileID: -8726705899490165968}
+  HomeKit: {fileID: 9190590292757254521}
+  AwayKit: {fileID: -623127371071196754}
+  Players:
+  - {fileID: -1878274192352403488}
+  - {fileID: 5524460846655558850}
+  - {fileID: 6482359000556781215}
+  - {fileID: -3903149915965840616}
+  - {fileID: -178964163030422498}
+  - {fileID: 6508944865086709241}
+  - {fileID: -6598470696967288008}
+  - {fileID: 7931545937158480144}
+  - {fileID: -5075097694649751538}
+  - {fileID: -783463200734231585}
+  - {fileID: -5702018892321914367}
+  Formation: 2
+  IsValid: 1
+--- !u!114 &5524460846655558850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 4
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Sinchenkovic
+  SkinColor: 1
+  HairStyles: 3
+  HairColor: 4
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 175
+  weight: 66
+  strength: 69
+  acceleration: 82
+  topSpeed: 84
+  dribbleSpeed: 83
+  jump: 72
+  tackling: 80
+  ballKeeping: 82
+  passing: 83
+  longBall: 82
+  agility: 83
+  shooting: 74
+  shootPower: 79
+  positioning: 82
+  reaction: 83
+  ballControl: 80
+--- !u!114 &6482359000556781215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 2
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Magals
+  SkinColor: 3
+  HairStyles: 1
+  HairColor: 2
+  FacialHairStyles: 0
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 0
+  height: 190
+  weight: 83
+  strength: 84
+  acceleration: 76
+  topSpeed: 77
+  dribbleSpeed: 56
+  jump: 78
+  tackling: 83
+  ballKeeping: 73
+  passing: 68
+  longBall: 64
+  agility: 67
+  shooting: 57
+  shootPower: 66
+  positioning: 82
+  reaction: 88
+  ballControl: 69
+--- !u!114 &6508944865086709241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 6
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Partieh
+  SkinColor: 4
+  HairStyles: 5
+  HairColor: 2
+  FacialHairStyles: 2
+  FacialHairColor: 2
+  BootColor: 0
+  SockAccessoryColor: 3
+  height: 185
+  weight: 82
+  strength: 85
+  acceleration: 78
+  topSpeed: 78
+  dribbleSpeed: 75
+  jump: 83
+  tackling: 82
+  ballKeeping: 76
+  passing: 78
+  longBall: 73
+  agility: 78
+  shooting: 77
+  shootPower: 86
+  positioning: 83
+  reaction: 81
+  ballControl: 75
+--- !u!114 &7931545937158480144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f20f07f499f3e4ea8118f1edb33f26, type: 3}
+  m_Name: Player 7
+  m_EditorClassIdentifier: 
+  team: {fileID: 11400000}
+  Name: Jorgerinho
+  SkinColor: 1
+  HairStyles: 2
+  HairColor: 1
+  FacialHairStyles: 1
+  FacialHairColor: 0
+  BootColor: 0
+  SockAccessoryColor: 1
+  height: 178
+  weight: 70
+  strength: 68
+  acceleration: 76
+  topSpeed: 74
+  dribbleSpeed: 75
+  jump: 72
+  tackling: 82
+  ballKeeping: 77
+  passing: 94
+  longBall: 88
+  agility: 85
+  shooting: 82
+  shootPower: 78
+  positioning: 92
+  reaction: 88
+  ballControl: 91
+--- !u!114 &9190590292757254521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 097a80344c96307499abae1931fb354d, type: 3}
+  m_Name: Kit - Home
+  m_EditorClassIdentifier: 
+  PreviewTexture: {fileID: 2800000, guid: 65e3f220ccdc5e245adece19d9f4ac5a, type: 3}
+  KitMaterial: {fileID: 2800000, guid: c580ad4567d3b2342b142b0ac6ca3868, type: 3}
+  Color1: {r: 0, g: 0, b: 0, a: 1}
+  Color2: {r: 0, g: 0.21335192, b: 0.41509432, a: 1}
+  TextColor: {r: 1, g: 1, b: 1, a: 1}
+  GKKitMaterial: {fileID: 2800000, guid: d608d0bf69d71e34b85658a81fad14e7, type: 3}
+  GKColor1: {r: 0, g: 0.21176471, b: 0.41568628, a: 1}
+  GKColor2: {r: 0, g: 0.21176471, b: 0.41568628, a: 1}
+  GKTextColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e5f33a9cdee264e9e44dff8e3694df, type: 3}
+  m_Name: OffsideCamera
+  m_EditorClassIdentifier: 
+  cameraName: 
+  Zoom2DMatch: 2
+  m_DOFRangeMin: 110
+  m_DOFRangeMax: 250
+  ZPositionOffset: -60.7
+  YPositionOffset: 80
+  Zoom: 20
+  DefaultCameraXRotation: 44.6
+  CameraXRotationTargetPower: 0.5

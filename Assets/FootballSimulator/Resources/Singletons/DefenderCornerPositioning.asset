@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edafe71ce49035845a242a214ad3eecb, type: 3}
+  m_Name: DefenderCornerPositioning
+  m_EditorClassIdentifier: 
+  FixedLength: 0
+  FieldPositions:
+  - Name: GK
+    Position: 2
+    HorizontalPlacement: 0.5
+    VerticalPlacement: 0.005
+  - Name: RB
+    Position: 4
+    HorizontalPlacement: 0.23473614
+    VerticalPlacement: 0.15365659
+  - Name: LB
+    Position: 8
+    HorizontalPlacement: 0.7318784
+    VerticalPlacement: 0.16162933
+  - Name: CB
+    Position: 16
+    HorizontalPlacement: 0.55
+    VerticalPlacement: 0.002
+  - Name: CB_R
+    Position: 32
+    HorizontalPlacement: 0.39896065
+    VerticalPlacement: 0.0905994
+  - Name: CB_L
+    Position: 64
+    HorizontalPlacement: 0.45
+    VerticalPlacement: 0.002
+  - Name: DMF
+    Position: 128
+    HorizontalPlacement: 0.5173811
+    VerticalPlacement: 0.08987461
+  - Name: DMF_R
+    Position: 256
+    HorizontalPlacement: 0.49168605
+    VerticalPlacement: 0.24860477
+  - Name: DMF_L
+    Position: 512
+    HorizontalPlacement: 0.6335671
+    VerticalPlacement: 0.08045227
+  - Name: CM
+    Position: 1024
+    HorizontalPlacement: 0.47157693
+    VerticalPlacement: 0.092048995
+  - Name: CM_L
+    Position: 2048
+    HorizontalPlacement: 0.5788256
+    VerticalPlacement: 0.08407625

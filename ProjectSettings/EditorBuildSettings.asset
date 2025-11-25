@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FootballSimulator/_StartingScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/FootballSimulator/Scenes/DefaultScene.unity
+    guid: 87e39defefc67fe4495c67d831c0a18b
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b29d3e66361224141b7e1af8a8ef1b46, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 58c2bb1b2c15279499252c60059831ef, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: e7b5de307ec54bb48bf71450c0142f69, type: 2}

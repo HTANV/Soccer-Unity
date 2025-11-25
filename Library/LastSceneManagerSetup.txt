@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/FootballSimulator/_StartingScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

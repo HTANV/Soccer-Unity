@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f9543183c41dde640987ba93ac840858
+  m_SerializeEntries:
+  - m_GUID: 7fec3cfe5fe39e34d8b7dcbeda8890a0
+    m_Address: Assets/FootballPlayer/NewPlayer/Materials/MaskMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7137a038eb4ae1c4396fd5175f402518
+    m_Address: Assets/Arts/UI/TeamLogos/Materials/TeamLogo1Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0f0540cd3ba69624cbb59f08815db707
+    m_Address: Assets/Arts/UI/Position.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62598f4d03a6e344c8c4b420a84931ba
+    m_Address: Assets/Arts/UI/BigScoreBoard/scorer_BigBoard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ec22be2b83e1634d8d2784649ca76cd
+    m_Address: Assets/Arts/UI/TeamLogos/Materials/ScoreboardColorMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c1dad341b41342469c16cc2ac4a577b
+    m_Address: Assets/FootballPlayer/PlayerRendererMobile.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3095dfa259b43cc40831296367dcdaa6
+    m_Address: Assets/FootballPlayer/NewPlayer/Materials/RefereeMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 372c8afbe5475f54da6086c4788edb17
+    m_Address: Assets/PlayableFormations/Balanced/Balanced.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 986f600c6ac52764c9fece96ef077ef0
+    m_Address: Assets/PlayableFormations/Balanced/3_5_2_Balanced.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9205193765a0744bb0ce17b033aa252
+    m_Address: Assets/Code/MatchEngine/MatchEngine.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a92648ec8a0da648b8025989bed67aa
+    m_Address: Assets/Arts/UI/UISystem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2f3f842d87e02e46b2efdbbf3526266
+    m_Address: Assets/Arts/UI/MatchUI.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2f4eea24a3694f4690ec4280c013bdd
+    m_Address: Assets/Arts/Sounds/Clips/navigation_enter.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f54cbc4e043eb8345a0a9b447cfc6aa2
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheGoalNet/BallHitTheGoalNet6.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 081fcb021c88dbe4596d8e7e337adbc7
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheGoalNet/BallHitTheGoalNet5.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: caec0067cea0a194fb3030ac8c415dd7
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheGoalNet/BallHitTheGoalNet1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f7fb16a456750f4ebecca51cdd06d5e
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheGoalNet/BallHitTheGoalNet2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5caab63da38de74418e9ce2e7718ca72
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheGoalNet/BallHitTheGoalNet3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3336b99cd0abc745bf2b0876a74dfa7
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheGoalNet/BallHitTheGoalNet4.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c526776429d4564aa51070786a3fc58
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheWoodWork/BallHitTheWoodWork1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa89a3d28a985ff42bc7d523f68b5d78
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheWoodWork/BallHitTheWoodWork2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 289e9cfb9efc3334e88f459bec55f661
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheWoodWork/BallHitTheWoodWork3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00a39fa0c557758439c9563ce937db47
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheWoodWork/BallHitTheWoodWork4.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3aa939a387657a4ab7f8282b86b5563
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallHitTheWoodWork/BallHitTheWoodWork5.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04823df28c3e50b479f187048396bc5f
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallOutByTheNet/BallOutByTheNet1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29eac2357832a4247a793d09cf84057f
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallOutByTheNet/BallOutByTheNet2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9b45f753dd56464bb92bedbff9384e2
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/BallOutByTheNet/BallOutByTheNet3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46e6c3910468911419004785be2c2498
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/GoalKeeperHoldTheBall/GoalKeeperHoldTheBall1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a6cdf0a9cc9a9d94bb54adee9259d5f5
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/GoalKeeperHoldTheBall/GoalKeeperHoldTheBall2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40aa8eb573edd434d9650dd2824973a7
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/GoalKeeperHoldTheBall/GoalKeeperHoldTheBall3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88eccdf3a51c06e46900d2d555ce3aab
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerChipShoot/PlayerChipShoot1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9e611bd37c2b2074d9435643a14e4cd2
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerChipShoot/PlayerChipShoot2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d790c60a87154da4188097ecebd32c75
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerControllBall/PlayerControlBall.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7ebdeea273426b419b57fdf6143856a
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerCross/PlayerCross.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d57e6c6c58180844faa44b9a416faf84
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerDisbalanced/PlayerDisbalanced1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa96731aff35e1041bb8314e379cdc3e
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerDisbalanced/PlayerDisbalanced2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e16460d8ae23e9f4592c5532fbc8bb6e
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerDisbalanced/PlayerDisbalanced3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d6037a191d36bc4abfa2a4ca145e125
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerShoot/PlayerShoot1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c7041673e4f4834fb9476dd3af43528
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerShoot/PlayerShoot2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 55583b3e13a6b8648b56f1f863c356ae
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerSlideTackle/PlayerSlideTackle.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 54b9a03cb5692db4e84ff46bbed5f0af
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerSlideTackle/PlayerSlideTackle2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d732d2dcf01beaf4f9f1caf8dab919c3
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerTackled/PlayerTackled1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1fcb5fcda94f2db4abf5bd77e636268d
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/RefereeLastWhistle/RefereeLastWhistle.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b771f60553f1d2948884b581b4caf915
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/RefereeShortWhistle/RefereeShortWhistle.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49201b9c8c01770458f19a545297222d
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerThrowIn/PlayerThrowIn1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b33f68f1b00c5f54a9cc859102854b2f
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerThrowIn/PlayerThrowIn2.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4973b8f1b2d52ad488f5a1f2e6ea17d5
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/PlayerPass/PlayerPass4.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7592a16ff0dc2164d84ad37a1364372b
+    m_Address: Assets/Arts/Sounds/Clips/FootballInGame/RefereeLongWhistle/RefereeLongWhistle.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7757d65698d2a54faafc86808918a72
+    m_Address: Assets/Code/Graphics/TimeOfDay/Templates/TimeOfDay_Morning.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9476fd8279a44644aa1c310cc17815b
+    m_Address: Assets/Code/Graphics/TimeOfDay/Templates/TimeOfDay_Afternoon.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 425bf9a002ac66a4d9218200751363ac
+    m_Address: Assets/Code/Graphics/TimeOfDay/Templates/TimeOfDay_Night.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b3fb703b1e1ea047a608829512a0f3c
+    m_Address: Assets/PlayableFormations/Balanced/4_1_3_2_Balanced.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b40a8c461feac744fb7993ed6cb71fa8
+    m_Address: Assets/Cameras/CornerCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f83241796583fee4fbfe3a2428acc9c6
+    m_Address: Assets/Cameras/HighStadiumCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9da576dd41c428b49acc537e96ff3423
+    m_Address: Assets/Cameras/OffsideCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e14aeff80ae3754aa5b58cded7f2213
+    m_Address: Assets/Cameras/TopViewCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4bbc21a8d07c3a84bb079dee869a2066
+    m_Address: Assets/PlayableFormations/Balanced/4_3_2_1_Balanced.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eb122f2f40207484b8b4a7693df07cb7
+    m_Address: Assets/PlayableFormations/Balanced/5_4_1_Balanced.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71ddfc7f751a5fb4693481b7371d4922
+    m_Address: Assets/Cameras/HighStadiumCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e062f627b9504e345b2e6dfb3c3af775
+    m_Address: Assets/Arts/UI/MatchCompletedPanel/Statistics/StatisticsOptionMember.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dceeb83e60dacef489d603eceb3e1795
+    m_Address: Assets/Cameras/TeleCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e21101f9fa9d87c44b6597065a38eeb6
+    m_Address: Assets/Bundles/Sources/Stadium/Stadium1_Small.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e28ce3bd7bd40e44fa09d0a324809aaf
+    m_Address: Assets/PlayableFormations/Balanced/2_3_5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2825b12e06ba5064287c3a6553fc7565
+    m_Address: Assets/PlayableFormations/Balanced/5_2_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97f5055f4d1012a40b551f662d8dedd9
+    m_Address: Assets/Arts/UI/MatchThemes/MatchThemeBasic.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dcc6ace83d80f2f49b18c1d506e72206
+    m_Address: Assets/Arts/UI/MatchThemes/TeamPresentation/PresentationSquadPlayer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8cb6992a32f171443b9e24a5042f2126
+    m_Address: Assets/Arts/UI/MatchThemes/TeamPresentation/PresentationSquadPlayer_AWAY
+      Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed80f84f3ca9fa34d85188e0241bed6d
+    m_Address: Assets/Arts/UI/MatchThemes/MatchStartPanel/HomeSquadPlayerPresentationUpcomingMatch.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74a64fb6572c0a446a1ec879bf639a6d
+    m_Address: Assets/Arts/UI/MatchThemes/MatchStartPanel/AwaySquadPlayerPresentationUpcomingMatch
+      Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c255fb1b498437048a37ab77881251b2
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/League5Theme.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e6c58a5fab9c6c84f9a754368e4d9229
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/League4Theme.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7fe178f4e39959740b64f265363fdec9
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/League3Theme.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09ae8c4e4dc836941af09101ce4bd447
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/League2Theme.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 60d449cf7dfd38a46bf17838200bb780
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/League1Theme.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19bd3cefb9cfca74cb6c69f47d3b6677
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/ChampionsCup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2009acc76ea6be34197585281db1cfb1
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/SuperCup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8273c44fc60a9184bb5e07550783d36d
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/ConferenceCup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b8262c90d685664bad3b1e9054b490f
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/TownCup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d513d0eaf5353c847a327c617775ed87
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/RegionalCup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b52b4d9ca0d2c545bbbfdbabf096cab
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionThemes/ChallengeCup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 165bc72df6a13824ea4f9a329ca40b91
+    m_Address: Assets/Arts/UI/MatchThemes/CompetitionMatchThemes/Training.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fc2e6e10acc89024f9343b9731d8297b
+    m_Address: Assets/Arts/TrainingField/Materials/Fence_MAT.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a809d6ed006c88a4591cc1442f9f1442
+    m_Address: Assets/FootballSimulator/Arts/Balls/BallGraphic1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 569d6bf86fcf0004f9b83f00b74189a4
+    m_Address: Assets/FootballSimulator/Arts/Balls/Prefabs/BallGraphic2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8df3a5d7b1efcc7419ccff58b07641e4
+    m_Address: Assets/FootballSimulator/Arts/Balls/Textures/ballSchemaTexture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7a55c1c5f371834b96b9d076a3cb164
+    m_Address: Assets/FootballSimulator/Arts/Balls/Materials/Ball1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ddc7151d0eb4d604da8b52b65b53c176
+    m_Address: Assets/FootballSimulator/Arts/Balls/Materials/Ball2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47241fa8069554f4a9021889dfcb6227, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8954d79e70b9789428c9d9d1771c8f8e, type: 2}
+    - {fileID: 11400000, guid: 2a15d6dd4d76f704e9a33e1fb4a5f408, type: 2}

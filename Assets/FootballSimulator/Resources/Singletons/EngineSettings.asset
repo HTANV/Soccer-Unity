@@ -1,0 +1,1596 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d95cc98012ef84b86d2ff5d67ecd3e, type: 3}
+  m_Name: EngineSettings
+  m_EditorClassIdentifier: 
+  BallControlDifficultyCurveByImpactPulseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.012431206
+      value: 0.42624283
+      inSlope: 19.30792
+      outSlope: 19.30792
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.34729445
+    - serializedVersion: 3
+      time: 0.5049846
+      value: 25.949396
+      inSlope: 110.88657
+      outSlope: 110.88657
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15992309
+      outWeight: 0.5118327
+    - serializedVersion: 3
+      time: 0.75941634
+      value: 65.77282
+      inSlope: 150.67888
+      outSlope: 150.67888
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2343412
+      outWeight: 0.18384577
+    - serializedVersion: 3
+      time: 1.3274049
+      value: 93.225945
+      inSlope: -2.3441124
+      outSlope: -2.3441124
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2552294
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BallControlHeightMultiplierCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0071763955
+      value: 1.0067602
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0391837
+      value: 0.97289383
+      inSlope: -0.107973255
+      outSlope: -0.107973255
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20543864
+      outWeight: 0.20167406
+    - serializedVersion: 3
+      time: 1.8266253
+      value: 0.91175306
+      inSlope: -0.0103074685
+      outSlope: -0.0103074685
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21260491
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BallControlMaxBallImpulse: 8
+  passHeightDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.17844975
+      value: 6.4664936
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 22.184942
+      value: 7.5413933
+      inSlope: 0.112107314
+      outSlope: 0.112107314
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1786684
+      outWeight: 0.35597116
+    - serializedVersion: 3
+      time: 47.374573
+      value: 12.174249
+      inSlope: 0.2718639
+      outSlope: 0.2718639
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21861878
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 70.79838
+      value: 18.799612
+      inSlope: 0.005781472
+      outSlope: 0.005781472
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.42668456
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  crossHeightDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.02718079
+      value: 19.831585
+      inSlope: 0.12780716
+      outSlope: 0.12780716
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.82272804
+    - serializedVersion: 3
+      time: 8.331497
+      value: 23.898167
+      inSlope: 0.5997034
+      outSlope: 0.5997034
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.45886186
+      outWeight: 0.21629144
+    - serializedVersion: 3
+      time: 25.346521
+      value: 26.06778
+      inSlope: -0.4394369
+      outSlope: -0.4394369
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.23299852
+    - serializedVersion: 3
+      time: 40.21741
+      value: 22.550438
+      inSlope: -0.105729066
+      outSlope: -0.105729066
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.61542785
+    - serializedVersion: 3
+      time: 58.61583
+      value: 28.274529
+      inSlope: 0.574863
+      outSlope: 0.574863
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.46032456
+      outWeight: 0.14220311
+    - serializedVersion: 3
+      time: 77.706604
+      value: 33.64144
+      inSlope: 0.12958163
+      outSlope: 0.12958163
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.36449602
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ShootHeightByBallHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8793696
+      value: 0.14707191
+      inSlope: 0.49991056
+      outSlope: 0.49991056
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30387133
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.3283974
+      value: 2.8597677
+      inSlope: 1.6078397
+      outSlope: 1.6078397
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20041674
+      outWeight: 0.16916934
+    - serializedVersion: 3
+      time: 1.9992241
+      value: 2.0189288
+      inSlope: -2.1945078
+      outSlope: -2.1945078
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21988386
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CrossTargetAdditionNormalByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.33747292
+      value: 4.1290035
+      inSlope: 0.032751698
+      outSlope: 0.032751698
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.11145327
+    - serializedVersion: 3
+      time: 28.33881
+      value: 8.073088
+      inSlope: 0.21887942
+      outSlope: 0.21887942
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44858673
+      outWeight: 0.3006794
+    - serializedVersion: 3
+      time: 58.407303
+      value: 19.21929
+      inSlope: 0.58954436
+      outSlope: 0.58954436
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17885344
+      outWeight: 0.13054898
+    - serializedVersion: 3
+      time: 99.783165
+      value: 28.563427
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CrossingBehindDistanceByFieldProgress:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.008632869
+      value: -19.992352
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.46974832
+      value: -2.2084255
+      inSlope: 66.347084
+      outSlope: 66.347084
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08426797
+      outWeight: 0.23664935
+    - serializedVersion: 3
+      time: 0.6260181
+      value: 12.506329
+      inSlope: 45.09157
+      outSlope: 45.09157
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44298863
+      outWeight: 0.12869118
+    - serializedVersion: 3
+      time: 0.9986973
+      value: 25.591797
+      inSlope: 78.71252
+      outSlope: 78.71252
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14777754
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PositioningMistakeModifier: 0.1
+  PositioningMistakeUpdateInPerSeconds: 3
+  LongBallSkillActivationDistanceMin: 22
+  LongBallSkillActivationDistanceMax: 35
+  StrengthModifier: 0.25
+  AccerelationModifier: 0.015
+  TopSpeedModifier: 0.044
+  AgilityModifier: 0.34
+  ShootingModifier: 1
+  PassingModifier: 1
+  DribbleModifier: 1
+  AI_ShootTolerance: 0.000001
+  AI_ShootToleranceDistanceCurveMod:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.52052605
+      value: 81553690
+      inSlope: -81.52364
+      outSlope: -81.52364
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.045610808
+    - serializedVersion: 3
+      time: 14.620243
+      value: 47174280
+      inSlope: -3910222.2
+      outSlope: -3910222.2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.39206246
+    - serializedVersion: 3
+      time: 18.420036
+      value: 30675772
+      inSlope: -5360298.5
+      outSlope: -5360298.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.14223477
+    - serializedVersion: 3
+      time: 23.12336
+      value: 4220004
+      inSlope: -2488496.8
+      outSlope: -2488496.8
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3539785
+      outWeight: 0.5903319
+    - serializedVersion: 3
+      time: 26.338465
+      value: 213091.78
+      inSlope: -21658.523
+      outSlope: -21658.523
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 49.511417
+      value: 2167.487
+      inSlope: -5765.628
+      outSlope: -5765.628
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14406416
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AI_ShootToleranceDividerAngleCurveMod:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.17163849
+      value: 1
+      inSlope: 0.3191422
+      outSlope: 0.3191422
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.17284445
+    - serializedVersion: 3
+      time: 42.564827
+      value: 6.532791
+      inSlope: 0.4814531
+      outSlope: 0.4814531
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21156634
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 48.90875
+      value: 787.9342
+      inSlope: 192.9681
+      outSlope: 192.9681
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.7600722
+      outWeight: 0.1618823
+    - serializedVersion: 3
+      time: 52.28733
+      value: 1858.8267
+      inSlope: 129.3498
+      outSlope: 129.3498
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.45501062
+      outWeight: 0.11655872
+    - serializedVersion: 3
+      time: 91.07649
+      value: 3706.7903
+      inSlope: 5.2560105
+      outSlope: 5.2560105
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AI_DistanceToAngleCurveMod:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.000049591064
+      value: 0.5020447
+      inSlope: 0.003649077
+      outSlope: 0.003649077
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.37474826
+    - serializedVersion: 3
+      time: 7.7123423
+      value: 0.57018197
+      inSlope: 0.018975804
+      outSlope: 0.018975804
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.18244517
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20.097643
+      value: 1.0029745
+      inSlope: 0.056962226
+      outSlope: 0.056962226
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13627659
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Ball_MinHitVelocity: 7.5
+  Tackling_Difficulty: 2
+  Angle_Power: 1.5
+  Angle_Multi: 0.0005
+  Angle_Distance_Power: 0.5
+  Angle_PlayerProgress:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.8021212
+      outSlope: 2.8021212
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.05747126
+    - serializedVersion: 3
+      time: 0.6024775
+      value: 1.0048215
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.12196684
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassingAngleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0049166214
+      value: 1.3014956
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2567286
+      value: 0.9832411
+      inSlope: -2.582135
+      outSlope: -2.582135
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.32291052
+    - serializedVersion: 3
+      time: 0.5022719
+      value: 0.49956703
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7056717
+      value: 0.9821913
+      inSlope: 2.3314805
+      outSlope: 2.3314805
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2712996
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99860334
+      value: 1.300211
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassingPlayerVelocityModifier: 2.1
+  PassingDistancePlayerVelocityModifier: 0.15
+  PassingBackwardMaxDistance: 25
+  PassingOptionPriorityPower: 0.5
+  PassingOptionDistanceToPriority: 0.03
+  PassingCrossPriority: -0.5
+  MinimumPassDistance: 3
+  PassingFieldBoundCheck: 0.25
+  PassingMiddlePriority: -0.05
+  XPowerPow: 0.8
+  ThroughtPassOptions:
+  - Name: Super Critical Vision
+    DisableCrossing: 1
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 1
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0
+    ToAttackMultiplier: 0
+    Priority: 2
+    OnlyWhenRunningForward: 1
+    IsEnabled: 1
+    PassTypes: 00000000
+    DebugColor: {r: 0.51476586, g: 1, b: 0, a: 1}
+  - Name: Attacking Throught Pass
+    DisableCrossing: 0
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 1.2
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0.3
+    ToAttackMultiplier: 0
+    Priority: 2
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 00000000
+    DebugColor: {r: 0, g: 0.55484986, b: 1, a: 1}
+  - Name: VeryMuchToGoalX
+    DisableCrossing: 0
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 0
+    ToTargetGoalNetOnXAxis: 0.4
+    ToTargetGoalNetOnZAxis: 0
+    ToAttackMultiplier: 0
+    Priority: 1
+    OnlyWhenRunningForward: 1
+    IsEnabled: 1
+    PassTypes: 00000000
+    DebugColor: {r: 0.7306696, g: 0.5707547, b: 1, a: 1}
+  - Name: DeepZBallLight
+    DisableCrossing: 1
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 0
+    ToTargetGoalNetOnXAxis: 0.175
+    ToTargetGoalNetOnZAxis: 0.253
+    ToAttackMultiplier: 0
+    Priority: 1
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 0000000001000000
+    DebugColor: {r: 0.94898105, g: 0.8443396, b: 1, a: 1}
+  - Name: DeepZBall
+    DisableCrossing: 1
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 0
+    ToTargetGoalNetOnXAxis: 0.282
+    ToTargetGoalNetOnZAxis: 0.509
+    ToAttackMultiplier: 0
+    Priority: 0
+    OnlyWhenRunningForward: 1
+    IsEnabled: 1
+    PassTypes: 00000000
+    DebugColor: {r: 0.98101234, g: 0, b: 1, a: 1}
+  - Name: ToBarelyFoot
+    DisableCrossing: 0
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 0.5
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0
+    ToAttackMultiplier: 0
+    Priority: -1
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 0000000001000000
+    DebugColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  - Name: ToTheFoot
+    DisableCrossing: 0
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 0
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0
+    ToAttackMultiplier: 0
+    Priority: -2
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 0000000001000000
+    DebugColor: {r: 0.5187292, g: 0.5943396, b: 0.28875935, a: 1}
+  - Name: LastOption
+    DisableCrossing: 0
+    EnableUserInput: 0
+    TakerVelocityMultiplier: 0
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0
+    ToAttackMultiplier: 0.5
+    Priority: -10
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 00000000
+    DebugColor: {r: 0, g: 0, b: 0, a: 1}
+  - Name: '[USER] Attacking Throught Pass'
+    DisableCrossing: 0
+    EnableUserInput: 1
+    TakerVelocityMultiplier: 1.2
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0.05
+    ToAttackMultiplier: 0
+    Priority: 2
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 02000000
+    DebugColor: {r: 0, g: 0.55484986, b: 1, a: 1}
+  - Name: '[USER] ToBarelyFoot'
+    DisableCrossing: 0
+    EnableUserInput: 1
+    TakerVelocityMultiplier: 0.5
+    ToTargetGoalNetOnXAxis: 0
+    ToTargetGoalNetOnZAxis: 0
+    ToAttackMultiplier: 0
+    Priority: -1
+    OnlyWhenRunningForward: 0
+    IsEnabled: 1
+    PassTypes: 0000000001000000
+    DebugColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  PassPowerDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.592026
+      value: 0.48256233
+      inSlope: 0.0009929443
+      outSlope: 0.0009929443
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 8.785418
+      value: 0.5220182
+      inSlope: 0.008965319
+      outSlope: 0.008965319
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3819696
+      outWeight: 1
+    - serializedVersion: 3
+      time: 13.108348
+      value: 0.6508043
+      inSlope: 0.01669654
+      outSlope: 0.01669654
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.48251918
+      outWeight: 0.2917997
+    - serializedVersion: 3
+      time: 19.229958
+      value: 0.75924283
+      inSlope: 0.009552986
+      outSlope: 0.009552986
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6227389
+      outWeight: 0.2880662
+    - serializedVersion: 3
+      time: 29.061775
+      value: 0.8633473
+      inSlope: 0.0049310355
+      outSlope: 0.0049310355
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6535853
+      outWeight: 0.22321902
+    - serializedVersion: 3
+      time: 69.67638
+      value: 0.92718095
+      inSlope: 0.00043191222
+      outSlope: 0.00043191222
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30198526
+      outWeight: 0.46257135
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassPowerReceiverSpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.045610428
+      value: 0.69815063
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 39.470547
+      value: 0.7300732
+      inSlope: 0.0013510943
+      outSlope: 0.0013510943
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.18709122
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 64.425186
+      value: 0.77108413
+      inSlope: 0.0016963576
+      outSlope: 0.0016963576
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14086103
+      outWeight: 0.26945466
+    - serializedVersion: 3
+      time: 99.28426
+      value: 0.84666544
+      inSlope: 0.002662378
+      outSlope: 0.002662378
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13555007
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassPowerCrossMod: 2
+  PassPowerByPassAngleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.14356995
+      value: 0.9053652
+      inSlope: -0.00001991142
+      outSlope: -0.00001991142
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.2518632
+    - serializedVersion: 3
+      time: 24.237038
+      value: 0.69276863
+      inSlope: -0.0114902565
+      outSlope: -0.0114902565
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.24029806
+    - serializedVersion: 3
+      time: 43.466885
+      value: 0.52537495
+      inSlope: -0.006338363
+      outSlope: -0.006338363
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.15408044
+    - serializedVersion: 3
+      time: 90.1753
+      value: 0.40196508
+      inSlope: -0.0003591528
+      outSlope: -0.0003591528
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19178022
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassPowerByAngledPassDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.12660193
+      value: 1.1269168
+      inSlope: -0.005200667
+      outSlope: -0.005200667
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09014814
+    - serializedVersion: 3
+      time: 19.292377
+      value: 1.0612893
+      inSlope: -0.001688421
+      outSlope: -0.001688421
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09209349
+      outWeight: 0.16512477
+    - serializedVersion: 3
+      time: 49.01088
+      value: 1.0445588
+      inSlope: 0.00018397231
+      outSlope: 0.00018397231
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2881094
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CanSeeSecureAngleModifierByBallProgressCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0086759515
+      value: 3.3275652
+      inSlope: -0.03381171
+      outSlope: -0.03381171
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.23063366
+    - serializedVersion: 3
+      time: 0.29216096
+      value: 2.6142178
+      inSlope: -5.184943
+      outSlope: -5.184943
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.47510508
+      outWeight: 0.2113633
+    - serializedVersion: 3
+      time: 0.5054146
+      value: 1.2344329
+      inSlope: -1.3390886
+      outSlope: -1.3390886
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.11007469
+      outWeight: 0.2456659
+    - serializedVersion: 3
+      time: 0.99836856
+      value: 0.813981
+      inSlope: -0.5057723
+      outSlope: -0.5057723
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22778106
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CanSeeSecureAngleBetweenPasserAndThread: 7
+  CanSeePredictPositionVelocityMod: 0.14
+  CanSeeThreadDistanceAdditionByBallProgress:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00605011
+      value: -1.0317383
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.47396666
+      value: -0.7298568
+      inSlope: 1.2260952
+      outSlope: 1.2260952
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2658034
+      outWeight: 0.3182469
+    - serializedVersion: 3
+      time: 0.7272929
+      value: -0.34518394
+      inSlope: 1.5853842
+      outSlope: 1.5853842
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44253862
+      outWeight: 0.36811388
+    - serializedVersion: 3
+      time: 0.99523425
+      value: 0.058212847
+      inSlope: 1.4208533
+      outSlope: 1.4208533
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5016121
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CanSeeAngleModByDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 2.366116
+      value: 3.839922
+      inSlope: -0.006370235
+      outSlope: -0.006370235
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 14.636775
+      value: 1.4591856
+      inSlope: -0.062640004
+      outSlope: -0.062640004
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.22045892
+    - serializedVersion: 3
+      time: 22.648842
+      value: 1.048105
+      inSlope: -0.002147805
+      outSlope: -0.002147805
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.115700886
+      outWeight: 0.5573311
+    - serializedVersion: 3
+      time: 36.740276
+      value: 1.6705416
+      inSlope: 0.040618535
+      outSlope: 0.040618535
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.26178598
+      outWeight: 0.27337357
+    - serializedVersion: 3
+      time: 59.560177
+      value: 2.0588765
+      inSlope: 0.0031728707
+      outSlope: 0.0031728707
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.32990852
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassingCrossBlockApproveDistanceToTargetByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.4785297
+      value: 10.05676
+      inSlope: -0.21985027
+      outSlope: -0.21985027
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.15091422
+    - serializedVersion: 3
+      time: 27.662094
+      value: 7.7991076
+      inSlope: 0.15975244
+      outSlope: 0.15975244
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.24796605
+      outWeight: 0.19362961
+    - serializedVersion: 3
+      time: 49.875534
+      value: 9.946129
+      inSlope: 0.007912894
+      outSlope: 0.007912894
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.28088695
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PassingCrossBlockApproveDistanceToPasserByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.091711044
+      value: 9.36364
+      inSlope: -0.30742124
+      outSlope: -0.30742124
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.04207578
+    - serializedVersion: 3
+      time: 49.78386
+      value: 4.7743635
+      inSlope: -0.0006257481
+      outSlope: -0.0006257481
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.26656035
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CurvedBallHitPositionVectorModifier: 3
+  CurvedBallHitDirectionLerper: 0.5
+  IsDirectionErrorEnabled: 1
+  DirectionErrorModByVelocityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.23111302
+      value: 0.33902407
+      inSlope: 0.1745273
+      outSlope: 0.1745273
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18084012
+    - serializedVersion: 3
+      time: 27.655634
+      value: 10.845833
+      inSlope: 1.2270246
+      outSlope: 1.2270246
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.43405887
+      outWeight: 0.50469375
+    - serializedVersion: 3
+      time: 42.778503
+      value: 43.635994
+      inSlope: 3.3149343
+      outSlope: 3.3149343
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.55673647
+      outWeight: 0.119399
+    - serializedVersion: 3
+      time: 79.75839
+      value: 150.06288
+      inSlope: 0.1730131
+      outSlope: 0.1730131
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.26025623
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DirectionErrorSkillModCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0028214944
+      value: 1.4263802
+      inSlope: -0.17698255
+      outSlope: -0.17698255
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.17457555
+    - serializedVersion: 3
+      time: 0.38225612
+      value: 0.92510056
+      inSlope: -2.4716022
+      outSlope: -2.4716022
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.42922187
+    - serializedVersion: 3
+      time: 0.59437484
+      value: 0.4636066
+      inSlope: -1.8480891
+      outSlope: -1.8480891
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.39516947
+    - serializedVersion: 3
+      time: 0.7666745
+      value: 0.15112151
+      inSlope: -1.3356289
+      outSlope: -1.3356289
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.76271176
+    - serializedVersion: 3
+      time: 0.8755393
+      value: 0.035599526
+      inSlope: -0.522485
+      outSlope: -0.522485
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.87108046
+    - serializedVersion: 3
+      time: 0.9959862
+      value: 0
+      inSlope: -0.11273064
+      outSlope: -0.11273064
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.83325267
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ShootingForwardAxisMultiplier: 0.003
+  ShootingUpAxisDistanceMultiplier: 0.115
+  ShootPowerByDistanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.014713287
+      value: 13.650493
+      inSlope: 0.02128772
+      outSlope: 0.02128772
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.44682178
+      outWeight: 0.07955565
+    - serializedVersion: 3
+      time: 12.078558
+      value: 14.093525
+      inSlope: 0.03817043
+      outSlope: 0.03817043
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4215146
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 24.670626
+      value: 14.639394
+      inSlope: 0.04175702
+      outSlope: 0.04175702
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.06742847
+    - serializedVersion: 3
+      time: 80.366684
+      value: 16.006655
+      inSlope: 0.00617869
+      outSlope: 0.00617869
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.17244391
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ShootPowerBySkillCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.9975586
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5746978
+      value: 1.1345991
+      inSlope: 0.6010213
+      outSlope: 0.6010213
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9959632
+      value: 1.8962412
+      inSlope: 3.1047823
+      outSlope: 3.1047823
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07518173
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ShootingBlockAngle: 3
+  ShootErrorRemoveByDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0020980835
+      value: 1.0006714
+      inSlope: -0.14405891
+      outSlope: -0.14405891
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.07414348
+    - serializedVersion: 3
+      time: 20.021063
+      value: 0.0052559944
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MinimumDistanceToTeammates: 8
+  RunningForwardCurves:
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0015337423
+      value: 0.0064360662
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7155681
+      value: 0.041611
+      inSlope: 0.14960039
+      outSlope: 0.14960039
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13925557
+      outWeight: 0.49071607
+    - serializedVersion: 3
+      time: 0.8570609
+      value: 0.52380955
+      inSlope: 5.891179
+      outSlope: 5.891179
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13271506
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0030675
+      value: 0.99798876
+      inSlope: 2.098149
+      outSlope: 2.098149
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33707866
+      outWeight: 0.33333334
+    m_PreInfinity: 0
+    m_PostInfinity: 0
+    m_RotationOrder: 0
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0030674846
+      value: -0.0016089858
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.738131
+      value: 0.06571853
+      inSlope: 0.21533716
+      outSlope: 0.21533716
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08749658
+      outWeight: 0.34444606
+    - serializedVersion: 3
+      time: 1.005822
+      value: 1.0055445
+      inSlope: 0.6038392
+      outSlope: 0.6038392
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.25240955
+      outWeight: 0.33333334
+    m_PreInfinity: 0
+    m_PostInfinity: 0
+    m_RotationOrder: 0
+  RunForwardLerpSpeed: 1
+  RunForwardLerpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RunForwardAngleLerpMod: 30
+  AvoidanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.08105743
+      outSlope: 0.08105743
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.1965235
+    - serializedVersion: 3
+      time: 0.5400508
+      value: 0.20038697
+      inSlope: 0.98554564
+      outSlope: 0.98554564
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15807164
+      outWeight: 0.44919905
+    - serializedVersion: 3
+      time: 0.99768066
+      value: 0.430748
+      inSlope: 0.082232185
+      outSlope: 0.082232185
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.25077137
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BallChasingChaserToBallDistanceAdditionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 17.393232
+      value: 6.4519696
+      inSlope: 1.2038158
+      outSlope: 1.2038158
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16281466
+      outWeight: 0.17811313
+    - serializedVersion: 3
+      time: 39.98276
+      value: 51.582817
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BallMagnetRadius: 3
+  BallMagnetPower: 0.1
+  AgileToDirectionWhenHoldingBallModifier: 1.1
+  AgileToDirectionAngleDifferencyHardness:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 180
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AgileToDirectionMoveSpeedHardness:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.012481689
+      value: 1.499115
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 6
+      value: 2
+      inSlope: 0.21025711
+      outSlope: 0.21025711
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.098950796
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BestOptionToTargetMaxDistanceByBallProgressCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0057907104
+      value: 50.82783
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.39343262
+      value: 18.582184
+      inSlope: -68.514366
+      outSlope: -68.514366
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18738091
+    - serializedVersion: 3
+      time: 0.9944882
+      value: 19.851322
+      inSlope: 76.35193
+      outSlope: 76.35193
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10984547
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BestOptionToTargetGKAddition: -5
+  BallChasingDistanceGKAddition: 1
+  JoinTheAttackCurves:
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5038635
+      value: 0.19955935
+      inSlope: 0.44919977
+      outSlope: 0.44919977
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0030308
+      value: 0.3006257
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  - serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9984741
+      value: 0.02419281
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
